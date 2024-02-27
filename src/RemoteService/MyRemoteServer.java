@@ -6,7 +6,6 @@ import java.rmi.RemoteException;
         public MyRemoteServer() throws RemoteException {
             super();
         }
-
         @Override
         public String performAction(String input) throws RemoteException {
             // Traitement côté serveur
